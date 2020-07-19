@@ -22,10 +22,10 @@ df.groupby('start').sum()
 
 #创建新列
 start_to_number={
-                 '力荐':5,
-				 '推荐':4,
-				 '还行':3
-				}
+                '力荐':5,
+		'推荐':4,
+	        '还行':3
+		}
 df['new_star'] = df['star'].map(start_to_number)
 ```
 
