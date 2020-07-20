@@ -1,6 +1,7 @@
 # 1. SELECT * FROM data;
 df
 # 2. SELECT * FROM data LIMIT(10);
+df.head(10)
 df.loc[:10,:]
 # 3. SELECT id FROM data;  //id 是 data 表的特定一列
 df['id']
